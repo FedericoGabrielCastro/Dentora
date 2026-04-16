@@ -13,4 +13,5 @@ urlpatterns = [
     ),
     # Apps
     path("api/", include("dentora.accounts.urls", namespace="accounts")),
+    path("api/", include("dentora.patients.urls", namespace="patients")),
 ]
