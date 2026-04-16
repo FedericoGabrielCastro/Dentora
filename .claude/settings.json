@@ -1,4 +1,12 @@
 {
+  "permissions": {
+    "allow": [
+      "Bash(poetry run *)",
+      "Bash(grep -v \"^$\")",
+      "Bash(docker-compose up *)",
+      "Bash(docker-compose restart *)"
+    ]
+  },
   "hooks": {
     "PostToolUse": [
       {
